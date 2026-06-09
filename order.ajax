@@ -1,0 +1,17 @@
+AJAX endpoint map for COSSIE Wholesale Inventory and Management System
+
+This file documents the AJAX calls used by assets/js/app.js.
+
+1. POST api/orders.php
+   Saves a wholesale order with customer, business type, product, quantity,
+   discount and total amount.
+
+2. POST api/payments.php
+   Saves payment information for an order number.
+
+3. POST api/returns.php
+   Saves rejected goods reports for damaged, expired, wrong, leaking or short
+   quantity items.
+
+The JavaScript uses fetch(), which is the modern AJAX method supported by
+current browsers.
